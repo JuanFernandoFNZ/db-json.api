@@ -1,1 +1,35 @@
-
+{
+  "tipos_documento": [
+    {
+      "id": 1,
+      "name": "Tarjeta de identidad"
+    },
+    {
+      "id": 2,
+      "name": "Cédula de ciudadanía"
+    },
+    {
+      "id": 3,
+      "name": "Cédula de extranjería"
+    },
+    {
+      "id": 4,
+      "name": "Pasaporte"
+    },
+    {
+      "id": 5,
+      "name": "NIT"
+    },
+    {
+      "id": 6,
+      "name": "Registro civil"
+    },
+    {
+      "id": 7,
+      "name": "Permiso especial de permanencia"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
