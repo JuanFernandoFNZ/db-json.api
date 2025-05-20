@@ -2,31 +2,297 @@
   "tipos_documento": [
     {
       "id": 1,
-      "name": "Tarjeta de identidad"
+      "name": "Cédula de Ciudadanía",
+      "relative_name": "CC"
     },
     {
       "id": 2,
-      "name": "Cédula de ciudadanía"
+      "name": "Tarjeta de Identidad",
+      "relative_name": "TI"
     },
     {
       "id": 3,
-      "name": "Cédula de extranjería"
+      "name": "Registro Civil",
+      "relative_name": "RC"
     },
     {
       "id": 4,
-      "name": "Pasaporte"
+      "name": "Cédula de Extranjería",
+      "relative_name": "CE"
     },
     {
       "id": 5,
-      "name": "NIT"
+      "name": "Permiso por Protección Temporal",
+      "relative_name": "PPT"
     },
     {
       "id": 6,
-      "name": "Registro civil"
+      "name": "Pasaporte",
+      "relative_name": "PA"
     },
     {
       "id": 7,
-      "name": "Permiso especial de permanencia"
+      "name": "Licencia de Conducción",
+      "relative_name": "LC"
+    },
+    {
+      "id": 8,
+      "name": "Tarjeta Profesional",
+      "relative_name": "TP"
+    },
+    {
+      "id": 9,
+      "name": "Certificado Judicial",
+      "relative_name": "CJ"
+    },
+    {
+      "id": 10,
+      "name": "Registro Único Tributario",
+      "relative_name": "RUT"
+    },
+    {
+      "id": 11,
+      "name": "Certificado Cámara de Comercio",
+      "relative_name": "CCC"
+    },
+    {
+      "id": 12,
+      "name": "Visa Colombiana",
+      "relative_name": "VISA"
+    },
+    {
+      "id": 13,
+      "name": "Salvoconducto",
+      "relative_name": "SC"
+    }
+  ],
+  "ciudades_colombia": [
+    {
+      "id": 1,
+      "name": "Bogotá",
+      "relative_name": "BOG"
+    },
+    {
+      "id": 2,
+      "name": "Medellín",
+      "relative_name": "MED"
+    },
+    {
+      "id": 3,
+      "name": "Cali",
+      "relative_name": "CAL"
+    },
+    {
+      "id": 4,
+      "name": "Barranquilla",
+      "relative_name": "BAR"
+    },
+    {
+      "id": 5,
+      "name": "Cartagena de Indias",
+      "relative_name": "CAR"
+    },
+    {
+      "id": 6,
+      "name": "Soledad",
+      "relative_name": "SOL"
+    },
+    {
+      "id": 7,
+      "name": "Cúcuta",
+      "relative_name": "CUC"
+    },
+    {
+      "id": 8,
+      "name": "Soacha",
+      "relative_name": "SOA"
+    },
+    {
+      "id": 9,
+      "name": "Ibagué",
+      "relative_name": "IBA"
+    },
+    {
+      "id": 10,
+      "name": "Bucaramanga",
+      "relative_name": "BUC"
+    },
+    {
+      "id": 11,
+      "name": "Santa Marta",
+      "relative_name": "SMA"
+    },
+    {
+      "id": 12,
+      "name": "Valledupar",
+      "relative_name": "VAL"
+    },
+    {
+      "id": 13,
+      "name": "Bello",
+      "relative_name": "BEL"
+    },
+    {
+      "id": 14,
+      "name": "Pereira",
+      "relative_name": "PER"
+    },
+    {
+      "id": 15,
+      "name": "Montería",
+      "relative_name": "MON"
+    },
+    {
+      "id": 16,
+      "name": "Neiva",
+      "relative_name": "NEI"
+    },
+    {
+      "id": 17,
+      "name": "Pasto",
+      "relative_name": "PAS"
+    },
+    {
+      "id": 18,
+      "name": "Manizales",
+      "relative_name": "MAN"
+    },
+    {
+      "id": 19,
+      "name": "Armenia",
+      "relative_name": "ARM"
+    },
+    {
+      "id": 20,
+      "name": "Popayán",
+      "relative_name": "POP"
+    },
+    {
+      "id": 21,
+      "name": "Quibdó",
+      "relative_name": "QUI"
+    },
+    {
+      "id": 22,
+      "name": "Riohacha",
+      "relative_name": "RIO"
+    },
+    {
+      "id": 23,
+      "name": "Florencia",
+      "relative_name": "FLO"
+    },
+    {
+      "id": 24,
+      "name": "Sincelejo",
+      "relative_name": "SIN"
+    },
+    {
+      "id": 25,
+      "name": "Montería",
+      "relative_name": "MON"
+    }
+  ],
+  "marcas_carro": [
+    {
+      "id": 1,
+      "name": "Toyota",
+      "relative_name": "TOYOTA"
+    },
+    {
+      "id": 2,
+      "name": "Chevrolet",
+      "relative_name": "CHEVROLET"
+    },
+    {
+      "id": 3,
+      "name": "Renault",
+      "relative_name": "RENAULT"
+    },
+    {
+      "id": 4,
+      "name": "Mazda",
+      "relative_name": "MAZDA"
+    },
+    {
+      "id": 5,
+      "name": "Kia",
+      "relative_name": "KIA"
+    },
+    {
+      "id": 6,
+      "name": "Hyundai",
+      "relative_name": "HYUNDAI"
+    },
+    {
+      "id": 7,
+      "name": "Ford",
+      "relative_name": "FORD"
+    },
+    {
+      "id": 8,
+      "name": "Volkswagen",
+      "relative_name": "VW"
+    },
+    {
+      "id": 9,
+      "name": "Nissan",
+      "relative_name": "NISSAN"
+    },
+    {
+      "id": 10,
+      "name": "Suzuki",
+      "relative_name": "SUZUKI"
+    },
+    {
+      "id": 11,
+      "name": "BMW",
+      "relative_name": "BMW"
+    },
+    {
+      "id": 12,
+      "name": "Mercedes-Benz",
+      "relative_name": "MERCEDES"
+    },
+    {
+      "id": 13,
+      "name": "Audi",
+      "relative_name": "AUDI"
+    },
+    {
+      "id": 14,
+      "name": "Peugeot",
+      "relative_name": "PEUGEOT"
+    },
+    {
+      "id": 15,
+      "name": "Jeep",
+      "relative_name": "JEEP"
+    },
+    {
+      "id": 16,
+      "name": "Honda",
+      "relative_name": "HONDA"
+    },
+    {
+      "id": 17,
+      "name": "Chery",
+      "relative_name": "CHERY"
+    },
+    {
+      "id": 18,
+      "name": "Subaru",
+      "relative_name": "SUBARU"
+    },
+    {
+      "id": 19,
+      "name": "Dodge",
+      "relative_name": "DODGE"
+    },
+    {
+      "id": 20,
+      "name": "Fiat",
+      "relative_name": "FIAT"
     }
   ],
   "profile": {
